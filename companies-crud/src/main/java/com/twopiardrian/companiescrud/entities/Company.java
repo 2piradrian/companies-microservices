@@ -1,4 +1,4 @@
-package com.twopiardrian.companies_crud.entities;
+package com.twopiardrian.companiescrud.entities;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;

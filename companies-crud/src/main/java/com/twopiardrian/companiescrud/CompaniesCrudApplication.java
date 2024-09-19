@@ -1,4 +1,4 @@
-package com.twopiardrian.companies_crud;
+package com.twopiardrian.companiescrud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

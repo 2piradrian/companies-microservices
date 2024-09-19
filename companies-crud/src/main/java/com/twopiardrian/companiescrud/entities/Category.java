@@ -1,4 +1,4 @@
-package com.twopiardrian.companies_crud.entities;
+package com.twopiardrian.companiescrud.entities;
 
 public enum Category {
     SOCIAL_NETWORK,

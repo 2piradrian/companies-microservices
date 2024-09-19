@@ -1,4 +1,4 @@
-package com.twopiardrian.companies_crud;
+package com.twopiardrian.companiescrud;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
