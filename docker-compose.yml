@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15.3
+    container_name: db-companies
+    restart: always
+    volumes:
+      - ./sql/01-schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+      - ./sql/02-data.sql:/docker-entrypoint-initdb.d/02-data.sql
+    environment:
+      POSTGRES_DB: companies
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
