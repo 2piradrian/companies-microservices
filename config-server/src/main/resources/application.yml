@@ -5,7 +5,7 @@ spring:
   application:
     name: config-server
   profiles:
-    active: default
+    active: dev
   cloud:
     config:
       server:
