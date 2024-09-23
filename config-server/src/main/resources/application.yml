@@ -2,10 +2,10 @@ server:
   port: 7777
 
 spring:
+  application:
+    name: config-server
   profiles:
     active: default
-    application:
-        name: config-server
     cloud:
       config:
         server:
