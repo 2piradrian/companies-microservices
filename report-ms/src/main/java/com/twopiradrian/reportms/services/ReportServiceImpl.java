@@ -1,5 +1,6 @@
 package com.twopiradrian.reportms.services;
 
+import com.twopiradrian.reportms.helpers.ReportHelper;
 import com.twopiradrian.reportms.repositories.CompaniesRepository;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -11,10 +12,12 @@ import org.springframework.stereotype.Service;
 public class ReportServiceImpl implements ReportService {
 
     private final CompaniesRepository companiesRepository;
+    private final ReportHelper reportHelper;
 
     @Override
     public String makeReport(String name) {
-        return "";
+        reportHelper.readTemplate();
+        return this.companiesRepository.findByName(name).orElseThrow().getName();
     }
 
     @Override
