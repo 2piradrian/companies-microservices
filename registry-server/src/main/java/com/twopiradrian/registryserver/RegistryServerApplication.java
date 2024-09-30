@@ -1,4 +1,4 @@
-package com.twopiradrian.registry_server;
+package com.twopiradrian.registryserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

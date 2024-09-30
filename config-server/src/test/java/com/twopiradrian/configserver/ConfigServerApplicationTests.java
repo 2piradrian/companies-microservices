@@ -1,4 +1,4 @@
-package com.twopiradrian.config_server;
+package com.twopiradrian.configserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

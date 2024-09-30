@@ -1,4 +1,4 @@
-package com.twopiradrian.registry_server;
+package com.twopiradrian.registryserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

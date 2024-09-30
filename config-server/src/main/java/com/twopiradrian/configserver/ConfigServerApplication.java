@@ -1,4 +1,4 @@
-package com.twopiradrian.config_server;
+package com.twopiradrian.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
